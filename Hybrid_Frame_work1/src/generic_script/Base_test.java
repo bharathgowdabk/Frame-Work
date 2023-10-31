@@ -23,6 +23,6 @@ public class Base_test {
 	@AfterMethod
 	public void closeApplication()
 	{
-		driver.close();// quite closes all tab
+		driver.close();// quite stops background actions
 	}
 }
